@@ -1,23 +1,55 @@
 # CryptAI
+*Send crypto as easily as sending a text.*
 
-CryptAI is a conversational crypto transaction platform that eliminates the friction of traditional wallet interactions. Instead of navigating complex interfaces, switching networks, and manually signing transactions, users can simply type their intent in natural human language — and CryptAI takes care of the rest.
+---
 
-The project is being developed for integration with AYA Wallet, providing a unified and secure wallet experience that can work across multiple blockchains. Currently, the system is live on one chain, with a roadmap to expand to all major chains and tokens.
+### **Primary Contact**
+- **Name:** Hano Diony Jacob
+- **Telegram:** @chainblocked
 
-## Problem
+### **Team Name**
+CryptAI
 
-Even experienced crypto users face unnecessary complexity when sending funds:
+### **Project Title**
+CryptAI – Conversational Crypto Transactions for AYA Wallet
 
-* Switching between multiple wallets and chain networks.
-* Copy-pasting long wallet addresses.
-* Manually signing and verifying transactions.
-* Technical onboarding barriers for new users.
+### **One-Sentence Elevator Pitch**
 
-This complexity slows adoption and prevents crypto from being as accessible as sending money in a messaging app.
+Send crypto to anyone in plain human language - no wallet switching, no chain setup, just chat and transact.
 
-## Solution
+### **Detailed Project Description**
 
-CryptAI transforms the process into a simple conversation:
+CryptAI is a conversational crypto transaction platform that removes the friction from blockchain payments.
+Instead of navigating multiple wallets, switching chain networks, or manually signing each transaction, users simply type their intent in natural language - for example:
 
-**Example:** “Send 0.05 ETH to Alex”
-**Response:** “✅ Sent! Transaction hash: 0x123…abcd”
+> “Send 0.05 ETH to Alex”
+> “Pay 10 USDC to Priya for lunch”
+
+The system processes the request, parses the intent, and executes the transaction via AYA Wallet.
+Currently, CryptAI is live on one blockchain, with plans to expand to all major chains.
+
+### **Key Features:**
+
+- Natural language transaction commands.
+- Single, unified wallet experience via AYA Wallet.
+- Secure transaction signing.
+- Scalable for multi-chain and multi-token support.
+
+### **Currently Live on:**
+
+[https://cryptai-eight.vercel.app/](https://cryptai-eight.vercel.app/)
+
+
+### **How it Works**
+
+```
+Send 1 SUI to 0x123abc...789
+```
+The app will parse the intent and execute the transaction via AYA Wallet.
+
+The transaction hash will be displayed on-screen.
+
+### **Known Issues**
+- Currently supports only one blockchain network.
+- No voice command support yet.
+- Requires pre-funded wallet to execute transactions.
