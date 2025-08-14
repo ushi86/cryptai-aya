@@ -53,3 +53,7 @@ The transaction hash will be displayed on-screen.
 - Currently supports only one blockchain network.
 - No voice command support yet.
 - Requires pre-funded wallet to execute transactions.
+
+### **Update 1.1**
+
+- Now support all evm based chains
